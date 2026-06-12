@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Yunfei Wang's academic homepage, presenting education, research experience, selected publications, projects, and contact information."
+    />  <!-- 搜索浏览器的下面的那一部分简介 -->
+    <title>Yunfei Wang | Academic Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- 顶部导航栏：放网站名称和页面导航链接 -->
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Yunfei Wang home">
+        <span>Yunfei Wang</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#experience">Experience</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+    </header>
+
+    <main>
+      <!-- 首页 Home 区域：紧凑展示个人身份、研究简介、按钮和照片卡片 -->
+      <section id="home" class="hero section-band">
+        <div class="hero-content">
+          <p class="eyebrow">Academic Homepage</p>
+          <h1>Yunfei Wang</h1>
+          <p class="identity">Ph.D. Student in Communication Engineering</p>
+          <p class="affiliation">Southeast University</p>
+          <p class="positioning">
+            My research focuses on full-duplex millimeter-wave massive MIMO systems, hybrid
+            beamforming, self-interference cancellation, and IRS-assisted wireless communications. I
+            am also exploring AI-assisted methods for wireless network optimization and research
+            productivity.
+          </p>
+          <div class="compact-facts home-tags" aria-label="Research keywords">
+            <span>Full-Duplex mmWave MIMO</span>
+            <span>Hybrid Beamforming</span>
+            <span>IRS</span>
+            <span>AI for Communication</span>
+          </div>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="#publications">Publications</a>
+            <a class="button button-secondary" href="#projects">Projects</a>
+            <a class="button button-ghost" href="#contact">Contact Me</a>
+          </div>
+        </div>
+
+        <aside class="profile-panel" aria-label="Profile summary">
+          <div class="portrait-frame">
+            <img src="assets/profile-id-photo.png" alt="Portrait of Yunfei Wang" />
+          </div>
+          <div class="profile-meta">
+            <p>Southeast University</p>
+            <p>State Key Laboratory of Mobile Communications</p>
+            <a href="mailto:wangyunfei@seu.edu.cn">wangyunfei@seu.edu.cn</a>
+          </div>
+        </aside>
+      </section>
+
+      <!-- 教育与奖项区域：展示教育经历和代表性荣誉 -->
+      <section id="experience" class="section-wrap">
+        <div class="section-heading compact-heading">
+          <p class="section-kicker">Experience</p>
+          <h2>Academic and Industry Experience</h2>
+          <p>
+            Education, internship experience, and selected honors.
+          </p>
+        </div>
+        <div class="experience-grid">
+          <article class="experience-card">
+            <p class="experience-label">Education</p>
+            <ul>
+              <li>
+                <strong>2026 - Present:</strong> Ph.D. Student, State Key Laboratory of Mobile
+                Communications, Southeast University
+              </li>
+              <li>
+                <strong>2023 - 2026:</strong> M.S. Student, State Key Laboratory of Mobile
+                Communications, Southeast University
+              </li>
+              <li>
+                <strong>2019 - 2023:</strong> B.E. Student, School of Information Science and
+                Engineering, Southeast University
+              </li>
+            </ul>
+          </article>
+          <article class="experience-card">
+            <p class="experience-label">Internship</p>
+            <div class="internship-entry">
+              <p class="item-main">
+                <strong>Jun. 2025 - Aug. 2025</strong>
+                <span>Huawei Technologies Co., Ltd. · Terminal Protocol Development Department</span>
+              </p>
+              <p class="item-note">Integrated Data Services / HarmonyOS Network Protocol Development</p>
+              <ul>
+                <li>
+                  Developed and maintained data-service components for HarmonyOS, including
+                  network-domain alerts, vulnerability fixes, and memory-related updates.
+                </li>
+                <li>
+                  Resolved 23 network-related issue tickets, including 9 HarmonyOS closed-source
+                  alerts and vulnerabilities.
+                </li>
+                <li>
+                  Reviewed and maintained 14 HarmonyOS open-source components; code changes were
+                  merged into the HarmonyOS 6.0.0 mainline, with 7 changes approved for commercial
+                  branches 5.1.1 and 5.0.2.
+                </li>
+              </ul>
+            </div>
+          </article>
+          <article class="experience-card">
+            <p class="experience-label">Honors and Awards</p>
+            <ul>
+              <li>
+                <strong>2025:</strong> National Second Prize, Huawei Cup China Graduate
+                Mathematical Contest in Modeling
+              </li>
+              <li>
+                <strong>2025:</strong> East China Third Prize, GigaDevice Cup China Graduate
+                Electronics Design Contest
+              </li>
+              <li>
+                <strong>2022:</strong> Meritorious Winner, Mathematical Contest in Modeling
+              </li>
+              <li>
+                <strong>2021:</strong> Provincial First Prize, Jiangsu College Higher Mathematics
+                Competition
+              </li>
+              <li>
+                Ye Jing and Liu Fang Couple Scholarship; Second-class Graduate Scholarship
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- 论文与代表性成果区域 -->
+      <section id="publications" class="section-wrap">
+        <div class="section-heading compact-heading">
+          <p class="section-kicker">Publications</p>
+          <h2>Selected Research Publications</h2>
+          <p>Selected papers on wireless communication.</p>
+        </div>
+        <!--
+        Journal Papers template:
+        Uncomment this panel when journal papers are ready to publish.
+
+        <div class="publication-panel">
+          <div class="publication-panel-header">
+            <h3>Journal Papers</h3>
+            <span>Selected publications</span>
+          </div>
+          <ol class="publication-list">
+            <li class="publication-item">
+              <span class="pub-index">[J1]</span>
+              <div class="pub-entry">
+                <p>
+                  <strong>Yunfei Wang</strong>, Coauthor Name. <strong>Paper title goes here</strong>.
+                  <em>Journal Name, Year</em>. Brief one-sentence description.
+                </p>
+                <div class="publication-links">
+                  <a href="#">PDF</a>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+        -->
+        <div class="publication-panel">
+          <div class="publication-panel-header">
+            <h3>Conference Papers</h3>
+            <span>Selected publications</span>
+          </div>
+          <ol id="publication-list" class="publication-list" aria-live="polite"></ol>
+        </div>
+      </section>
+
+      <!-- 项目展示区域：项目卡片由 script.js 根据数据自动生成 -->
+      <section id="projects" class="section-wrap project-section">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="section-kicker">Projects</p>
+            <h2>Selected Projects</h2>
+          </div>
+          <p>
+            Communication-oriented research projects and personal tools that support my academic
+            work, engineering practice, and technical exploration.
+          </p>
+        </div>
+        <div id="project-grid" class="project-groups" aria-live="polite"></div>
+      </section>
+
+      <!-- 联系方式区域：放邮箱、学术主页链接和简历下载 -->
+      <section id="contact" class="contact-section section-band">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2>Contact and Collaboration</h2>
+          <p>
+            I welcome conversations on full-duplex wireless systems, IRS-assisted communications,
+            AI for wireless networks, and research productivity tools.
+          </p>
+        </div>
+        <div class="contact-card">
+          <a href="mailto:wangyunfei@seu.edu.cn">wangyunfei@seu.edu.cn</a>
+          <a href="#" aria-label="GitHub placeholder">GitHub</a>
+          <a href="#" aria-label="Google Scholar placeholder">Google Scholar</a>
+          <a href="assets/wang-yunfei-cv.docx">Download CV</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- 页脚区域：版权信息和返回顶部链接 -->
+    <footer class="site-footer">
+      <p>&copy; 2026 Yunfei Wang. Academic portfolio and research project showcase.</p>
+      <a href="#home">Back to top</a>
+    </footer>
+
+    <!-- 脚本文件：先加载数据，再加载页面交互和渲染逻辑 -->
+    <script src="data/content.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
